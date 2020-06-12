@@ -24,7 +24,6 @@ function App() {
     <div>
       <Header />
       <TextArea click={handleClick} />
-      <Note title="Title" content="Content" />
       {lists.map((item, index) => (
         <Note
           key={index}

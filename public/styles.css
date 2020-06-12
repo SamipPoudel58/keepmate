@@ -14,14 +14,24 @@ body {
 header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin: 0;
   color: white;
-  font-weight: bold;
-  font-size: 4vh;
   padding-left: 20px;
+  padding-right: 30px;
   height: 10vh;
   width: 100%;
-  background-color: #3d405b;
+  background-color: #58b4ae;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 4vh;
+}
+
+header p {
+  opacity: 80%;
+  font-size: 2vh;
 }
 
 footer {
@@ -52,7 +62,7 @@ footer {
 .note button {
   color: white;
   background-color: #e07a5f;
-  margin-left: 180px;
+  margin-left: 15vw;
   border: none;
   width: 30px;
   height: 30px;
@@ -91,7 +101,7 @@ form textarea {
 form button {
   color: white;
   position: absolute;
-  background-color: #3d405b;
+  background-color: #58b4ae;
   top: 140px;
   right: 40px;
   border: none;
